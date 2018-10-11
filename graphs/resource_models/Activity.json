@@ -16,98 +16,8 @@
           "helptitle":null,
           "instructions":null,
           "is_editable":false,
-          "name":"Place 2",
+          "name":"Place",
           "nodegroup_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0",
-          "sortorder":null,
-          "visible":true
-        },
-        {
-          "active":true,
-          "cardid":"23c35ce1-943a-11e8-a690-94659cf754d0",
-          "component_id":"f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-          "config":null,
-          "cssclass":null,
-          "description":"Used to hold identifiers necessary to link a given resource to records in an external (perhaps legacy) system.",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "helpenabled":false,
-          "helptext":null,
-          "helptitle":null,
-          "instructions":"Enter information for identifiers of the resource from other external sources.",
-          "is_editable":true,
-          "name":"External Identifier",
-          "nodegroup_id":"23c35cdf-943a-11e8-9123-94659cf754d0",
-          "sortorder":null,
-          "visible":true
-        },
-        {
-          "active":true,
-          "cardid":"4b17b8e1-943a-11e8-9d8c-94659cf754d0",
-          "component_id":"f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-          "config":null,
-          "cssclass":null,
-          "description":"Represents a single node in a graph",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "helpenabled":false,
-          "helptext":null,
-          "helptitle":null,
-          "instructions":"Enter the cadastral reference number.",
-          "is_editable":true,
-          "name":"Cadastral Reference",
-          "nodegroup_id":"4b17b8df-943a-11e8-b585-94659cf754d0",
-          "sortorder":4,
-          "visible":true
-        },
-        {
-          "active":true,
-          "cardid":"6c6c48d3-943a-11e8-8249-94659cf754d0",
-          "component_id":"f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-          "config":null,
-          "cssclass":null,
-          "description":"Describes the time span and type of an Activity Resource.",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "helpenabled":false,
-          "helptext":null,
-          "helptitle":null,
-          "instructions":null,
-          "is_editable":true,
-          "name":"Activity Phase",
-          "nodegroup_id":"6c6c48d1-943a-11e8-9916-94659cf754d0",
-          "sortorder":null,
-          "visible":true
-        },
-        {
-          "active":true,
-          "cardid":"4b17b8e4-943a-11e8-92ae-94659cf754d0",
-          "component_id":"f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-          "config":null,
-          "cssclass":null,
-          "description":"Represents a single node in a graph",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "helpenabled":false,
-          "helptext":null,
-          "helptitle":null,
-          "instructions":"Describe the location of the resource.",
-          "is_editable":true,
-          "name":"Description Location",
-          "nodegroup_id":"4b17b8e2-943a-11e8-8622-94659cf754d0",
-          "sortorder":3,
-          "visible":true
-        },
-        {
-          "active":true,
-          "cardid":"1a7e9f03-943a-11e8-9405-94659cf754d0",
-          "component_id":"f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-          "config":null,
-          "cssclass":null,
-          "description":"An informative word used for resource information retrieval that indicates the content of a resource.\n\nRelates to resources via P2.",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "helpenabled":false,
-          "helptext":null,
-          "helptitle":null,
-          "instructions":"Select keywords associated with the resource.",
-          "is_editable":false,
-          "name":"Keyword",
-          "nodegroup_id":"1a7e9f01-943a-11e8-ae35-94659cf754d0",
           "sortorder":null,
           "visible":true
         },
@@ -131,6 +41,24 @@
         },
         {
           "active":true,
+          "cardid":"1a7e9f03-943a-11e8-9405-94659cf754d0",
+          "component_id":"f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+          "config":null,
+          "cssclass":null,
+          "description":"An informative word used for resource information retrieval that indicates the content of a resource.\n\nRelates to resources via P2.",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "helpenabled":false,
+          "helptext":null,
+          "helptitle":null,
+          "instructions":"Select keywords associated with the resource.",
+          "is_editable":false,
+          "name":"Keyword",
+          "nodegroup_id":"1a7e9f01-943a-11e8-ae35-94659cf754d0",
+          "sortorder":null,
+          "visible":true
+        },
+        {
+          "active":true,
           "cardid":"5b58f254-943a-11e8-942a-94659cf754d0",
           "component_id":"f05e4d3a-53c1-11e8-b0ea-784f435179ea",
           "config":null,
@@ -144,6 +72,42 @@
           "is_editable":false,
           "name":"Description",
           "nodegroup_id":"5b58f252-943a-11e8-ab05-94659cf754d0",
+          "sortorder":null,
+          "visible":true
+        },
+        {
+          "active":true,
+          "cardid":"6c6c48d3-943a-11e8-8249-94659cf754d0",
+          "component_id":"f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+          "config":null,
+          "cssclass":null,
+          "description":"Describes the time span and type of an Activity Resource.",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "helpenabled":false,
+          "helptext":null,
+          "helptitle":null,
+          "instructions":null,
+          "is_editable":true,
+          "name":"Activity Phase",
+          "nodegroup_id":"6c6c48d1-943a-11e8-9916-94659cf754d0",
+          "sortorder":null,
+          "visible":true
+        },
+        {
+          "active":true,
+          "cardid":"23c35ce1-943a-11e8-a690-94659cf754d0",
+          "component_id":"f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+          "config":null,
+          "cssclass":null,
+          "description":"Used to hold identifiers necessary to link a given resource to records in an external (perhaps legacy) system.",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "helpenabled":false,
+          "helptext":null,
+          "helptitle":null,
+          "instructions":"Enter information for identifiers of the resource from other external sources.",
+          "is_editable":true,
+          "name":"External Identifier",
+          "nodegroup_id":"23c35cdf-943a-11e8-9123-94659cf754d0",
           "sortorder":null,
           "visible":true
         },
@@ -167,7 +131,7 @@
         },
         {
           "active":true,
-          "cardid":"6c6c48d6-943a-11e8-b11e-94659cf754d0",
+          "cardid":"4b17b8e4-943a-11e8-92ae-94659cf754d0",
           "component_id":"f05e4d3a-53c1-11e8-b0ea-784f435179ea",
           "config":null,
           "cssclass":null,
@@ -176,11 +140,11 @@
           "helpenabled":false,
           "helptext":null,
           "helptitle":null,
-          "instructions":"Select an activity type and its corresponding to and from dates.",
+          "instructions":"Describe the location of the resource.",
           "is_editable":true,
-          "name":"Phase Type Assignment",
-          "nodegroup_id":"6c6c48d4-943a-11e8-b37d-94659cf754d0",
-          "sortorder":0,
+          "name":"Description Location",
+          "nodegroup_id":"4b17b8e2-943a-11e8-8622-94659cf754d0",
+          "sortorder":3,
           "visible":true
         },
         {
@@ -217,6 +181,42 @@
           "name":"Administration Subdivision",
           "nodegroup_id":"4b17b8e8-943a-11e8-a2fe-94659cf754d0",
           "sortorder":2,
+          "visible":true
+        },
+        {
+          "active":true,
+          "cardid":"4b17b8e1-943a-11e8-9d8c-94659cf754d0",
+          "component_id":"f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+          "config":null,
+          "cssclass":null,
+          "description":"Represents a single node in a graph",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "helpenabled":false,
+          "helptext":null,
+          "helptitle":null,
+          "instructions":"Enter the cadastral reference number.",
+          "is_editable":true,
+          "name":"Cadastral Reference",
+          "nodegroup_id":"4b17b8df-943a-11e8-b585-94659cf754d0",
+          "sortorder":4,
+          "visible":true
+        },
+        {
+          "active":true,
+          "cardid":"6c6c48d6-943a-11e8-b11e-94659cf754d0",
+          "component_id":"f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+          "config":null,
+          "cssclass":null,
+          "description":"Represents a single node in a graph",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "helpenabled":false,
+          "helptext":null,
+          "helptitle":null,
+          "instructions":"Select an activity type and its corresponding to and from dates.",
+          "is_editable":true,
+          "name":"Phase Type Assignment",
+          "nodegroup_id":"6c6c48d4-943a-11e8-b37d-94659cf754d0",
+          "sortorder":0,
           "visible":true
         },
         {
@@ -8498,21 +8498,21 @@
       "edges":[
         {
           "description":null,
-          "domainnode_id":"243f8688-b8f6-11e6-84a5-026d961c88e6",
-          "edgeid":"31eb2c38-943a-11e8-a037-94659cf754d0",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "name":null,
-          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P118_overlaps_in_time_with",
-          "rangenode_id":"31eb0522-943a-11e8-ae41-94659cf754d0"
-        },
-        {
-          "description":null,
-          "domainnode_id":"5b58f252-943a-11e8-ab05-94659cf754d0",
-          "edgeid":"5b58f259-943a-11e8-82b3-94659cf754d0",
+          "domainnode_id":"292ae090-943a-11e8-960d-94659cf754d0",
+          "edgeid":"292ae096-943a-11e8-8b2e-94659cf754d0",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "name":null,
           "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-          "rangenode_id":"5b58f255-943a-11e8-84d8-94659cf754d0"
+          "rangenode_id":"292ae093-943a-11e8-b3a7-94659cf754d0"
+        },
+        {
+          "description":null,
+          "domainnode_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0",
+          "edgeid":"4b180708-943a-11e8-bb33-94659cf754d0",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "name":null,
+          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
+          "rangenode_id":"4b17b8e2-943a-11e8-8622-94659cf754d0"
         },
         {
           "description":null,
@@ -8525,21 +8525,21 @@
         },
         {
           "description":null,
-          "domainnode_id":"243f8688-b8f6-11e6-84a5-026d961c88e6",
-          "edgeid":"1a7e9f05-943a-11e8-83ca-94659cf754d0",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "name":null,
-          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies",
-          "rangenode_id":"1a7e9f01-943a-11e8-ae35-94659cf754d0"
-        },
-        {
-          "description":null,
           "domainnode_id":"4b17b8e2-943a-11e8-8622-94659cf754d0",
           "edgeid":"4b180700-943a-11e8-a240-94659cf754d0",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "name":null,
           "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
           "rangenode_id":"4b17b8f4-943a-11e8-ac01-94659cf754d0"
+        },
+        {
+          "description":null,
+          "domainnode_id":"6c6c48d1-943a-11e8-9916-94659cf754d0",
+          "edgeid":"6c6c48e0-943a-11e8-8e7c-94659cf754d0",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "name":null,
+          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by",
+          "rangenode_id":"6c6c48d4-943a-11e8-b37d-94659cf754d0"
         },
         {
           "description":null,
@@ -8579,12 +8579,12 @@
         },
         {
           "description":null,
-          "domainnode_id":"6c6c48d1-943a-11e8-9916-94659cf754d0",
-          "edgeid":"6c6c48e0-943a-11e8-8e7c-94659cf754d0",
+          "domainnode_id":"243f8688-b8f6-11e6-84a5-026d961c88e6",
+          "edgeid":"23c383f0-943a-11e8-82de-94659cf754d0",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "name":null,
-          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by",
-          "rangenode_id":"6c6c48d4-943a-11e8-b37d-94659cf754d0"
+          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier",
+          "rangenode_id":"23c35cdf-943a-11e8-9123-94659cf754d0"
         },
         {
           "description":null,
@@ -8597,12 +8597,12 @@
         },
         {
           "description":null,
-          "domainnode_id":"243f8688-b8f6-11e6-84a5-026d961c88e6",
-          "edgeid":"4b18070a-943a-11e8-a2f8-94659cf754d0",
+          "domainnode_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0",
+          "edgeid":"4b180702-943a-11e8-8441-94659cf754d0",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "name":null,
-          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
-          "rangenode_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0"
+          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by",
+          "rangenode_id":"4b17b8df-943a-11e8-b585-94659cf754d0"
         },
         {
           "description":null,
@@ -8625,15 +8625,6 @@
         {
           "description":null,
           "domainnode_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0",
-          "edgeid":"4b180707-943a-11e8-8a73-94659cf754d0",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "name":null,
-          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
-          "rangenode_id":"4b17b8e8-943a-11e8-a2fe-94659cf754d0"
-        },
-        {
-          "description":null,
-          "domainnode_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0",
           "edgeid":"4b180709-943a-11e8-abc1-94659cf754d0",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "name":null,
@@ -8643,20 +8634,38 @@
         {
           "description":null,
           "domainnode_id":"243f8688-b8f6-11e6-84a5-026d961c88e6",
-          "edgeid":"23c383f0-943a-11e8-82de-94659cf754d0",
+          "edgeid":"4b18070a-943a-11e8-a2f8-94659cf754d0",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "name":null,
-          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier",
-          "rangenode_id":"23c35cdf-943a-11e8-9123-94659cf754d0"
+          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+          "rangenode_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0"
         },
         {
           "description":null,
           "domainnode_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0",
-          "edgeid":"4b180708-943a-11e8-bb33-94659cf754d0",
+          "edgeid":"4b180707-943a-11e8-8a73-94659cf754d0",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "name":null,
-          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
-          "rangenode_id":"4b17b8e2-943a-11e8-8622-94659cf754d0"
+          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
+          "rangenode_id":"4b17b8e8-943a-11e8-a2fe-94659cf754d0"
+        },
+        {
+          "description":null,
+          "domainnode_id":"243f8688-b8f6-11e6-84a5-026d961c88e6",
+          "edgeid":"31eb2c38-943a-11e8-a037-94659cf754d0",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "name":null,
+          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P118_overlaps_in_time_with",
+          "rangenode_id":"31eb0522-943a-11e8-ae41-94659cf754d0"
+        },
+        {
+          "description":null,
+          "domainnode_id":"6c6c48d4-943a-11e8-b37d-94659cf754d0",
+          "edgeid":"6c6c48de-943a-11e8-a29e-94659cf754d0",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "name":null,
+          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+          "rangenode_id":"6c6c48d8-943a-11e8-ae9f-94659cf754d0"
         },
         {
           "description":null,
@@ -8687,21 +8696,21 @@
         },
         {
           "description":null,
+          "domainnode_id":"31eb0528-943a-11e8-bbe4-94659cf754d0",
+          "edgeid":"31eb2c31-943a-11e8-8a8a-94659cf754d0",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "name":null,
+          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
+          "rangenode_id":"31eb0527-943a-11e8-a6dd-94659cf754d0"
+        },
+        {
+          "description":null,
           "domainnode_id":"6c6c48d8-943a-11e8-ae9f-94659cf754d0",
           "edgeid":"6c6c48e1-943a-11e8-97af-94659cf754d0",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "name":null,
           "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
           "rangenode_id":"6c6c48d7-943a-11e8-b8c1-94659cf754d0"
-        },
-        {
-          "description":null,
-          "domainnode_id":"6c6c48d4-943a-11e8-b37d-94659cf754d0",
-          "edgeid":"6c6c48de-943a-11e8-a29e-94659cf754d0",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "name":null,
-          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
-          "rangenode_id":"6c6c48d8-943a-11e8-ae9f-94659cf754d0"
         },
         {
           "description":null,
@@ -8723,12 +8732,12 @@
         },
         {
           "description":null,
-          "domainnode_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0",
-          "edgeid":"4b180702-943a-11e8-8441-94659cf754d0",
+          "domainnode_id":"6c6c48d8-943a-11e8-ae9f-94659cf754d0",
+          "edgeid":"6c6c48e2-943a-11e8-8ed9-94659cf754d0",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "name":null,
-          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by",
-          "rangenode_id":"4b17b8df-943a-11e8-b585-94659cf754d0"
+          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
+          "rangenode_id":"6c6c48da-943a-11e8-8bae-94659cf754d0"
         },
         {
           "description":null,
@@ -8768,12 +8777,12 @@
         },
         {
           "description":null,
-          "domainnode_id":"31eb0528-943a-11e8-bbe4-94659cf754d0",
-          "edgeid":"31eb2c31-943a-11e8-8a8a-94659cf754d0",
+          "domainnode_id":"5b58f252-943a-11e8-ab05-94659cf754d0",
+          "edgeid":"5b58f259-943a-11e8-82b3-94659cf754d0",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "name":null,
-          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
-          "rangenode_id":"31eb0527-943a-11e8-a6dd-94659cf754d0"
+          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+          "rangenode_id":"5b58f255-943a-11e8-84d8-94659cf754d0"
         },
         {
           "description":null,
@@ -8786,12 +8795,12 @@
         },
         {
           "description":null,
-          "domainnode_id":"6c6c48d8-943a-11e8-ae9f-94659cf754d0",
-          "edgeid":"6c6c48e2-943a-11e8-8ed9-94659cf754d0",
+          "domainnode_id":"243f8688-b8f6-11e6-84a5-026d961c88e6",
+          "edgeid":"1a7e9f05-943a-11e8-83ca-94659cf754d0",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "name":null,
-          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
-          "rangenode_id":"6c6c48da-943a-11e8-8bae-94659cf754d0"
+          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies",
+          "rangenode_id":"1a7e9f01-943a-11e8-ae35-94659cf754d0"
         },
         {
           "description":null,
@@ -8801,15 +8810,6 @@
           "name":null,
           "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
           "rangenode_id":"31eb0529-943a-11e8-949f-94659cf754d0"
-        },
-        {
-          "description":null,
-          "domainnode_id":"292ae090-943a-11e8-960d-94659cf754d0",
-          "edgeid":"292ae096-943a-11e8-8b2e-94659cf754d0",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "name":null,
-          "ontologyproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-          "rangenode_id":"292ae093-943a-11e8-b3a7-94659cf754d0"
         }
       ],
       "functions_x_graphs":[
@@ -8831,7 +8831,7 @@
           },
           "function_id":"60000000-0000-0000-0000-000000000001",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "id":"9e37b712-c8cd-11e8-b94c-027f111c8e34"
+          "id":"346f6770-cd0e-11e8-ad0b-f23c91527491"
         }
       ],
       "graphid":"243f8689-b8f6-11e6-84a5-026d961c88e6",
@@ -8851,7 +8851,7 @@
         {
           "cardinality":"n",
           "legacygroupid":null,
-          "nodegroupid":"1a7e9f01-943a-11e8-ae35-94659cf754d0",
+          "nodegroupid":"5b58f252-943a-11e8-ab05-94659cf754d0",
           "parentnodegroup_id":null
         },
         {
@@ -8861,15 +8861,21 @@
           "parentnodegroup_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0"
         },
         {
-          "cardinality":"n",
-          "legacygroupid":null,
-          "nodegroupid":"6c6c48d1-943a-11e8-9916-94659cf754d0",
-          "parentnodegroup_id":null
-        },
-        {
           "cardinality":"1",
           "legacygroupid":null,
           "nodegroupid":"4b17b8e2-943a-11e8-8622-94659cf754d0",
+          "parentnodegroup_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0"
+        },
+        {
+          "cardinality":"n",
+          "legacygroupid":null,
+          "nodegroupid":"1a7e9f01-943a-11e8-ae35-94659cf754d0",
+          "parentnodegroup_id":null
+        },
+        {
+          "cardinality":"n",
+          "legacygroupid":null,
+          "nodegroupid":"4b17b8e8-943a-11e8-a2fe-94659cf754d0",
           "parentnodegroup_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0"
         },
         {
@@ -8882,12 +8888,6 @@
           "cardinality":"1",
           "legacygroupid":null,
           "nodegroupid":"4b17b8eb-943a-11e8-8045-94659cf754d0",
-          "parentnodegroup_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0"
-        },
-        {
-          "cardinality":"n",
-          "legacygroupid":null,
-          "nodegroupid":"4b17b8e8-943a-11e8-a2fe-94659cf754d0",
           "parentnodegroup_id":"4b17b8ee-943a-11e8-8be1-94659cf754d0"
         },
         {
@@ -8911,7 +8911,7 @@
         {
           "cardinality":"n",
           "legacygroupid":null,
-          "nodegroupid":"5b58f252-943a-11e8-ab05-94659cf754d0",
+          "nodegroupid":"6c6c48d1-943a-11e8-9916-94659cf754d0",
           "parentnodegroup_id":null
         },
         {
@@ -8947,10 +8947,10 @@
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"Description Assignment",
-          "nodegroup_id":"5b58f252-943a-11e8-ab05-94659cf754d0",
-          "nodeid":"5b58f252-943a-11e8-ab05-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+          "name":"Activity Phase",
+          "nodegroup_id":"6c6c48d1-943a-11e8-9916-94659cf754d0",
+          "nodeid":"6c6c48d1-943a-11e8-9916-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E4_Period",
           "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P118_overlaps_in_time_with",
           "sortorder":0
         },
@@ -8971,24 +8971,8 @@
           "sortorder":0
         },
         {
-          "config":null,
-          "datatype":"string",
-          "description":"Represents a single node in a graph",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "is_collector":false,
-          "isrequired":false,
-          "issearchable":true,
-          "istopnode":false,
-          "name":"Description",
-          "nodegroup_id":"5b58f252-943a-11e8-ab05-94659cf754d0",
-          "nodeid":"5b58f256-943a-11e8-a401-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E62_String",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-          "sortorder":0
-        },
-        {
           "config":{
-            "rdmCollection":"81db59da-2e5c-4e7a-87a2-7e425b072749"
+            "rdmCollection":"49e69a2a-51ae-40b4-9d00-ed9372cbfb2f"
           },
           "datatype":"concept",
           "description":"Represents a single node in a graph",
@@ -8997,9 +8981,9 @@
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"Geometry Qualifier",
-          "nodegroup_id":"4b17b8eb-943a-11e8-8045-94659cf754d0",
-          "nodeid":"4b17b8f1-943a-11e8-800a-94659cf754d0",
+          "name":"Description Type",
+          "nodegroup_id":"5b58f252-943a-11e8-ab05-94659cf754d0",
+          "nodeid":"5b58f255-943a-11e8-84d8-94659cf754d0",
           "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E55_Type",
           "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
           "sortorder":0
@@ -9040,58 +9024,20 @@
         },
         {
           "config":{
-            "addToMap":true,
-            "advancedStyle":"",
-            "advancedStyling":false,
-            "autoManageCache":false,
-            "cacheTiles":false,
-            "clusterDistance":20,
-            "clusterMaxZoom":5,
-            "clusterMinPoints":3,
-            "fillColor":"rgba(255,0,0,0.5)",
-            "haloRadius":4,
-            "haloWeight":"7",
-            "layerActivated":true,
-            "layerIcon":"",
-            "layerName":"",
-            "lineColor":"rgba(255,0,0,0.7)",
-            "lineHaloColor":"rgba(255,0,0,0.5)",
-            "outlineColor":"rgba(255,0,0,0.7)",
-            "outlineWeight":2,
-            "pointColor":"rgba(255,0,0,0.7)",
-            "pointHaloColor":"rgba(255,0,0,0.5)",
-            "radius":2,
-            "simplification":0.3,
-            "weight":2
+            "rdmCollection":"2d0e2d0d-b93f-48b8-b280-532d3c45afed"
           },
-          "datatype":"geojson-feature-collection",
-          "description":"Represents a single node in a graph",
+          "datatype":"concept-list",
+          "description":"",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "is_collector":true,
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"Spatial Coordinates Geometry",
-          "nodegroup_id":"4b17b8eb-943a-11e8-8045-94659cf754d0",
-          "nodeid":"4b17b8eb-943a-11e8-8045-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by",
-          "sortorder":0
-        },
-        {
-          "config":null,
-          "datatype":"string",
-          "description":"Represents a single node in a graph",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "is_collector":true,
-          "isrequired":false,
-          "issearchable":true,
-          "istopnode":false,
-          "name":"Place Address",
-          "nodegroup_id":"4b17b8e5-943a-11e8-9b48-94659cf754d0",
-          "nodeid":"4b17b8e5-943a-11e8-9b48-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E45_Address",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by",
+          "name":"Keyword",
+          "nodegroup_id":"1a7e9f01-943a-11e8-ae35-94659cf754d0",
+          "nodeid":"1a7e9f01-943a-11e8-ae35-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies",
           "sortorder":0
         },
         {
@@ -9110,22 +9056,6 @@
           "nodeid":"31eb0525-943a-11e8-82ed-94659cf754d0",
           "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E55_Type",
           "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-          "sortorder":0
-        },
-        {
-          "config":null,
-          "datatype":"semantic",
-          "description":"Represents a single node in a graph",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "is_collector":true,
-          "isrequired":false,
-          "issearchable":true,
-          "istopnode":false,
-          "name":"Administration Subdivision",
-          "nodegroup_id":"4b17b8e8-943a-11e8-a2fe-94659cf754d0",
-          "nodeid":"4b17b8e8-943a-11e8-a2fe-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
           "sortorder":0
         },
         {
@@ -9185,9 +9115,9 @@
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"End of Existence Time Span",
-          "nodegroup_id":"31eb0522-943a-11e8-ae41-94659cf754d0",
-          "nodeid":"31eb0528-943a-11e8-bbe4-94659cf754d0",
+          "name":"Time Span Phase",
+          "nodegroup_id":"6c6c48d4-943a-11e8-b37d-94659cf754d0",
+          "nodeid":"6c6c48d8-943a-11e8-ae9f-94659cf754d0",
           "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
           "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
           "sortorder":0
@@ -9195,33 +9125,75 @@
         {
           "config":null,
           "datatype":"semantic",
+          "description":"Represents a single node in a graph",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "is_collector":true,
+          "isrequired":false,
+          "issearchable":true,
+          "istopnode":false,
+          "name":"Administration Subdivision",
+          "nodegroup_id":"4b17b8e8-943a-11e8-a2fe-94659cf754d0",
+          "nodeid":"4b17b8e8-943a-11e8-a2fe-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
+          "sortorder":0
+        },
+        {
+          "config":{
+            "rdmCollection":"de75168b-467c-4c2e-8f12-2ea7066b1bca"
+          },
+          "datatype":"concept",
           "description":"",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "is_collector":false,
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"Beginning of Existence",
+          "name":"Start Date Type",
           "nodegroup_id":"31eb0522-943a-11e8-ae41-94659cf754d0",
-          "nodeid":"31eb052a-943a-11e8-a702-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P116i_is_started_by",
+          "nodeid":"31eb0529-943a-11e8-949f-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
           "sortorder":0
         },
         {
-          "config":null,
-          "datatype":"string",
-          "description":"",
+          "config":{
+            "addToMap":true,
+            "advancedStyle":"",
+            "advancedStyling":false,
+            "autoManageCache":false,
+            "cacheTiles":false,
+            "clusterDistance":20,
+            "clusterMaxZoom":5,
+            "clusterMinPoints":3,
+            "fillColor":"rgba(255,0,0,0.5)",
+            "haloRadius":4,
+            "haloWeight":"7",
+            "layerActivated":true,
+            "layerIcon":"",
+            "layerName":"",
+            "lineColor":"rgba(255,0,0,0.7)",
+            "lineHaloColor":"rgba(255,0,0,0.5)",
+            "outlineColor":"rgba(255,0,0,0.7)",
+            "outlineWeight":2,
+            "pointColor":"rgba(255,0,0,0.7)",
+            "pointHaloColor":"rgba(255,0,0,0.5)",
+            "radius":2,
+            "simplification":0.3,
+            "weight":2
+          },
+          "datatype":"geojson-feature-collection",
+          "description":"Represents a single node in a graph",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "is_collector":true,
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"Name",
-          "nodegroup_id":"292ae090-943a-11e8-960d-94659cf754d0",
-          "nodeid":"292ae090-943a-11e8-960d-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by",
+          "name":"Spatial Coordinates Geometry",
+          "nodegroup_id":"4b17b8eb-943a-11e8-8045-94659cf754d0",
+          "nodeid":"4b17b8eb-943a-11e8-8045-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by",
           "sortorder":0
         },
         {
@@ -9257,21 +9229,19 @@
           "sortorder":0
         },
         {
-          "config":{
-            "rdmCollection":"de75168b-467c-4c2e-8f12-2ea7066b1bca"
-          },
-          "datatype":"concept",
+          "config":null,
+          "datatype":"string",
           "description":"",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "is_collector":false,
+          "is_collector":true,
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"Start Date Type",
-          "nodegroup_id":"31eb0522-943a-11e8-ae41-94659cf754d0",
-          "nodeid":"31eb0529-943a-11e8-949f-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+          "name":"Name",
+          "nodegroup_id":"292ae090-943a-11e8-960d-94659cf754d0",
+          "nodeid":"292ae090-943a-11e8-960d-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by",
           "sortorder":0
         },
         {
@@ -9291,19 +9261,21 @@
           "sortorder":0
         },
         {
-          "config":null,
-          "datatype":"date",
+          "config":{
+            "rdmCollection":"7a3b049a-ebcb-4a11-b545-fa37364de11d"
+          },
+          "datatype":"concept",
           "description":"Represents a single node in a graph",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "is_collector":false,
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"From Date",
+          "name":"Activity Type",
           "nodegroup_id":"6c6c48d4-943a-11e8-b37d-94659cf754d0",
-          "nodeid":"6c6c48d7-943a-11e8-b8c1-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
+          "nodeid":"6c6c48d9-943a-11e8-b01b-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
           "sortorder":0
         },
         {
@@ -9341,19 +9313,21 @@
           "sortorder":0
         },
         {
-          "config":null,
-          "datatype":"semantic",
-          "description":"",
+          "config":{
+            "rdmCollection":"81db59da-2e5c-4e7a-87a2-7e425b072749"
+          },
+          "datatype":"concept",
+          "description":"Represents a single node in a graph",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "is_collector":true,
+          "is_collector":false,
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"Activity Phase",
-          "nodegroup_id":"6c6c48d1-943a-11e8-9916-94659cf754d0",
-          "nodeid":"6c6c48d1-943a-11e8-9916-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E4_Period",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P118_overlaps_in_time_with",
+          "name":"Geometry Qualifier",
+          "nodegroup_id":"4b17b8eb-943a-11e8-8045-94659cf754d0",
+          "nodeid":"4b17b8f1-943a-11e8-800a-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
           "sortorder":0
         },
         {
@@ -9390,36 +9364,52 @@
         },
         {
           "config":null,
-          "datatype":"semantic",
+          "datatype":"date",
           "description":"Represents a single node in a graph",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "is_collector":false,
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"Time Span Phase",
+          "name":"From Date",
           "nodegroup_id":"6c6c48d4-943a-11e8-b37d-94659cf754d0",
-          "nodeid":"6c6c48d8-943a-11e8-ae9f-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+          "nodeid":"6c6c48d7-943a-11e8-b8c1-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
           "sortorder":0
         },
         {
           "config":{
-            "rdmCollection":"2d0e2d0d-b93f-48b8-b280-532d3c45afed"
+            "rdmCollection":"8aead464-2088-4081-b4e0-b99bf9e6b2ce"
           },
-          "datatype":"concept-list",
-          "description":"",
+          "datatype":"concept",
+          "description":"Represents a single node in a graph",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "is_collector":true,
+          "is_collector":false,
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"Keyword",
-          "nodegroup_id":"1a7e9f01-943a-11e8-ae35-94659cf754d0",
-          "nodeid":"1a7e9f01-943a-11e8-ae35-94659cf754d0",
+          "name":"Address Type",
+          "nodegroup_id":"4b17b8e5-943a-11e8-9b48-94659cf754d0",
+          "nodeid":"4b17b8f2-943a-11e8-8e54-94659cf754d0",
           "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+          "sortorder":0
+        },
+        {
+          "config":null,
+          "datatype":"semantic",
+          "description":"",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "is_collector":false,
+          "isrequired":false,
+          "issearchable":true,
+          "istopnode":false,
+          "name":"Beginning of Existence",
+          "nodegroup_id":"31eb0522-943a-11e8-ae41-94659cf754d0",
+          "nodeid":"31eb052a-943a-11e8-a702-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P116i_is_started_by",
           "sortorder":0
         },
         {
@@ -9457,57 +9447,35 @@
           "sortorder":0
         },
         {
-          "config":{
-            "rdmCollection":"7a3b049a-ebcb-4a11-b545-fa37364de11d"
-          },
-          "datatype":"concept",
-          "description":"Represents a single node in a graph",
+          "config":null,
+          "datatype":"semantic",
+          "description":"",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "is_collector":false,
+          "is_collector":true,
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"Activity Type",
-          "nodegroup_id":"6c6c48d4-943a-11e8-b37d-94659cf754d0",
-          "nodeid":"6c6c48d9-943a-11e8-b01b-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-          "sortorder":0
-        },
-        {
-          "config":{
-            "rdmCollection":"49e69a2a-51ae-40b4-9d00-ed9372cbfb2f"
-          },
-          "datatype":"concept",
-          "description":"Represents a single node in a graph",
-          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "is_collector":false,
-          "isrequired":false,
-          "issearchable":true,
-          "istopnode":false,
-          "name":"Description Type",
+          "name":"Description Assignment",
           "nodegroup_id":"5b58f252-943a-11e8-ab05-94659cf754d0",
-          "nodeid":"5b58f255-943a-11e8-84d8-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+          "nodeid":"5b58f252-943a-11e8-ab05-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P118_overlaps_in_time_with",
           "sortorder":0
         },
         {
-          "config":{
-            "rdmCollection":"8aead464-2088-4081-b4e0-b99bf9e6b2ce"
-          },
-          "datatype":"concept",
+          "config":null,
+          "datatype":"semantic",
           "description":"Represents a single node in a graph",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
-          "is_collector":false,
+          "is_collector":true,
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"Address Type",
-          "nodegroup_id":"4b17b8e5-943a-11e8-9b48-94659cf754d0",
-          "nodeid":"4b17b8f2-943a-11e8-8e54-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+          "name":"Place Description Assignment",
+          "nodegroup_id":"4b17b8e2-943a-11e8-8622-94659cf754d0",
+          "nodeid":"4b17b8e2-943a-11e8-8622-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
           "sortorder":0
         },
         {
@@ -9530,18 +9498,50 @@
         },
         {
           "config":null,
-          "datatype":"semantic",
+          "datatype":"string",
           "description":"Represents a single node in a graph",
           "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
           "is_collector":true,
           "isrequired":false,
           "issearchable":true,
           "istopnode":false,
-          "name":"Place Description Assignment",
-          "nodegroup_id":"4b17b8e2-943a-11e8-8622-94659cf754d0",
-          "nodeid":"4b17b8e2-943a-11e8-8622-94659cf754d0",
-          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
-          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
+          "name":"Place Address",
+          "nodegroup_id":"4b17b8e5-943a-11e8-9b48-94659cf754d0",
+          "nodeid":"4b17b8e5-943a-11e8-9b48-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E45_Address",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by",
+          "sortorder":0
+        },
+        {
+          "config":null,
+          "datatype":"string",
+          "description":"Represents a single node in a graph",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "is_collector":false,
+          "isrequired":false,
+          "issearchable":true,
+          "istopnode":false,
+          "name":"Description",
+          "nodegroup_id":"5b58f252-943a-11e8-ab05-94659cf754d0",
+          "nodeid":"5b58f256-943a-11e8-a401-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E62_String",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+          "sortorder":0
+        },
+        {
+          "config":null,
+          "datatype":"semantic",
+          "description":"Represents a single node in a graph",
+          "graph_id":"243f8689-b8f6-11e6-84a5-026d961c88e6",
+          "is_collector":false,
+          "isrequired":false,
+          "issearchable":true,
+          "istopnode":false,
+          "name":"End of Existence Time Span",
+          "nodegroup_id":"31eb0522-943a-11e8-ae41-94659cf754d0",
+          "nodeid":"31eb0528-943a-11e8-bbe4-94659cf754d0",
+          "ontologyclass":"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+          "parentproperty":"http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
           "sortorder":0
         }
       ],
@@ -9569,9 +9569,9 @@
     }
   ],
   "metadata":{
-    "db":"PostgreSQL 9.6.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.3 20140911 (Red Hat 4.8.3-9), 64-bit",
+    "db":"PostgreSQL 9.6.9 on x86_64-pc-linux-gnu (Ubuntu 9.6.9-2.pgdg16.04+1), compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.9) 5.4.0 20160609, 64-bit",
     "git hash":"a610083 2018-09-04 12:20:45 -0700",
     "os":"Linux",
-    "os version":"4.4.0-1069-aws"
+    "os version":"4.15.13-x86_64-linode106"
   }
 }
